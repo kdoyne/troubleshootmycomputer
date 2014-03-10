@@ -32,11 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-ruby '2.0.1'
+source 'https://rubygems.org'
+ruby '2.1.0'
 
-group :test, :production do
-  gem 'pg'
-end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
