@@ -12,6 +12,20 @@
  *= require_tree .
  */
 
+
+.title{
+  background-color: white;
+  color: #33CCFF;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+}
+
+body > div.title > a {
+  background-color: white;
+  color: #33CCFF;
+}
+
 body {
   background-color: #33CCFF;
   font-family: 'Source Sans Pro', sans-serif;
@@ -66,13 +80,6 @@ footer {
   color: white;
 }
 
-.title{
-  background-color: white;
-  color: #33CCFF;
-  position: fixed;
-  width: 100%;
-  padding: 5px;
-}
 
 @media only screen and (max-device-width: 690px) and (orientation: portrait) {
   button {
