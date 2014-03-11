@@ -61,6 +61,7 @@ input {
   padding-left: 10px;
   margin: 10px;
   padding-right: 10px;
+  width: 200px;
 }
 
 a:link {
@@ -81,7 +82,7 @@ footer {
 }
 
 
-@media only screen and (max-device-width: 690px) and (orientation: portrait) {
+@media only screen and (max-device-width: 690px) {
   button {
     background-color: white;
     border-radius: 10px;
