@@ -73,7 +73,7 @@ footer {
   width: 100%;
   padding: 5px;
 }
-
+/*
 @media only screen and (max-device-width: 690px) and (orientation: portrait) {
   button {
     background-color: white;
@@ -103,5 +103,5 @@ footer {
     font-size: 25px;
     font-weight: 400;
   }
-}
+}*/
 
