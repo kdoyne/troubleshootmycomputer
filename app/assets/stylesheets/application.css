@@ -66,7 +66,15 @@ footer {
   color: white;
 }
 
-@media (max-width: 700px) {
+.title{
+  background-color: white;
+  color: #33CCFF;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 700px) {
   button {
     background-color: white;
     border-radius: 10px;
